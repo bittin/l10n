@@ -184,3 +184,4 @@ center-tab-content =
 hide-bookmarkbar-label =
     .label = Piilota kirjanmerkkipalkin nimikkeet
 preferences-doh-ultra-detailed-desc-1 = Käyttää Waterfoxin Oblivious HTTP -välittäjää piilottaakseen DNS-kyselyt jopa DNS-palveluntarjoajalta
+preferences-doh-ultra-detailed-desc-2 = Tarjoaa lisäsuojausta tavanomaisen DNS HTTPS:n lisäksi
