@@ -411,7 +411,7 @@ tree-insert-new-tab-from-pinned-tab-at-top =
 
 ## Ad Blocking
 waterfox-blocker-header = Ad Blocking
-waterfox-blocker-intro-description = Waterfox blocks ads, tracking scripts and other nuisance requests.
+waterfox-blocker-intro-description = Waterfox blocks ads and other nuisance requests.
 
 waterfox-blocker-setting-on =
     .label = Ad Blocking
@@ -469,21 +469,24 @@ waterfox-blocker-exceptions-window =
     .title = Exceptions for Ad Blocking
 waterfox-blocker-exceptions-description = You can specify which websites have Ad Blocking turned off. Type the exact address of the site you want to manage and then click Add.
 
-waterfox-blocker-protections-category-label = Ad Blocking
-waterfox-blocker-protections-category-label-off = Ad Blocking (off)
-waterfox-blocker-protections-category-label-disabled-for-site = Ad Blocking (disabled for site)
-waterfox-blocker-protections-toggle-description = Block ads and nuisance requests on this site.
-waterfox-blocker-protections-toggle-label-site = Ad Blocking on this site
-waterfox-blocker-protections-toggle-label-host = Ad Blocking on { $host }
-waterfox-blocker-protections-site-summary-off = Ad Blocking is turned off.
-waterfox-blocker-protections-site-summary-unavailable = Ad Blocking is not available on this page.
-waterfox-blocker-protections-site-summary-disabled-for-site = Ad Blocking is disabled for this site.
-waterfox-blocker-protections-stats-singular = { $count } ad blocked on this tab
-waterfox-blocker-protections-stats-plural = { $count } ads blocked on this tab
-waterfox-blocker-protections-subview-intro = Waterfox Ad Blocking blocks ads, nuisance scripts and ad requests.
-waterfox-blocker-protections-subview-tab-count-label = Blocked on this tab
-waterfox-blocker-protections-disable-for-site = Disable for this site
-waterfox-blocker-protections-settings-button = Manage ad blocking settings
+waterfox-blocker-toolbar-button =
+    .label = Ad Blocking
+    .tooltiptext = Ad Blocking
+waterfox-blocker-panel-not-available = Not available on this page
+waterfox-blocker-panel-toggle =
+    .label = Ad Blocking on this site
+    .description = Block ads and nuisance requests on this site.
+waterfox-blocker-panel-disabled = Ad blocking is off
+waterfox-blocker-panel-site-excepted = Ads allowed on this site
+waterfox-blocker-panel-partner-allowed = Ads allowed for search partners
+waterfox-blocker-stats =
+    { $count ->
+        [one] { $count } ad blocked on this site
+       *[other] { $count } ads blocked on this site
+    }
+waterfox-blocker-panel-settings-button = Manage ad blocking settings
+waterfox-blocker-show-badge-pref =
+    .label = Show blocked count on toolbar button
 
 waterfox-blocker-filter-lists-category-core = Default
 waterfox-blocker-filter-lists-category-privacy = Privacy
